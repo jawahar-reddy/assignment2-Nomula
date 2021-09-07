@@ -22,3 +22,14 @@ As a travel **enthusiast**, I can say that Ladakh is one of the beautiful place 
 * jackets or sweaters must be taken.
 
 link of [AboutMe](https://github.com/jawahar-reddy/assignment2-Nomula/blob/main/AboutMe.md)
+
+---
+
+## List of food/drinks i recommend yoy to try
+The table below describes my favourite drinks and food items that i would recommend you to try
+| food/drink | location    | amount |
+| :---       | :---        | :---   |
+| Coffee     |  Starbucks  | $5     |
+| Tea        | Indian mart | $4     |
+| biryani    |  Mehfil     | $12    |
+| coke       | any location| $2     |
