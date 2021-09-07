@@ -7,7 +7,7 @@ As a travel **enthusiast**, I can say that Ladakh is one of the beautiful place 
 
 ---
 
-How to travel from Maryville to Ladakh?
+## How to travel from Maryville to Ladakh?
 1. Go to Kansas Airport.
 2. Take a flight from kansas to New Delhi.
 3. From Delhi there are two best ways to reach ladakh
