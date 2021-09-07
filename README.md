@@ -14,3 +14,9 @@ As a travel **enthusiast**, I can say that Ladakh is one of the beautiful place 
     1. it's better to take a rental bikeor from delhi
     2. we can also catchup a flight from delhi to Ladakh.
 4. If we are moving on bike we can see a lot of places in between delhi to ladakh.
+
+## List of items that are suggested to be carried for the trip
+* Enough water bottles must be carried.
+* Instant food items.
+* if you go by bike enough fuel cans must be carried out.
+* jackets or sweaters must be taken.
