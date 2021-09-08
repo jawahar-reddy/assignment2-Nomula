@@ -41,3 +41,38 @@ The table below describes my favourite drinks and food items that i would recomm
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - *Albert Einstein*
 
 > "Life is a song - sing it. Life is a game - play it. Life is a challenge - meet it. Life is a dream - realize it. Life is a sacrifice - offer it. Life is love - enjoy it".<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - *Sai Baba*
+
+---
+
+> The idea behind DFS is to go as deep into the graph as possible, and backtrack once you are at a vertex without any unvisited adjacent vertices.<br>
+It is very easy to describe / implement the algorithm recursively: We start the search at one vertex. After visiting a vertex, we further perform a DFS for each adjacent vertex that we haven't visited before. This way we visit all vertices that are reachable from the starting vertex.
+
+Here is the link:- <br>
+<https://cp-algorithms.com/graph/depth-first-search.html>
+
+Example code for `DFS`: 
+
+```
+vector<vector<int>> adj; // graph represented as an adjacency list
+int n; // number of vertices
+
+vector<int> color;
+
+vector<int> time_in, time_out;
+int dfs_timer = 0;
+
+void dfs(int v) {
+    time_in[v] = dfs_timer++;
+    color[v] = 1;
+    for (int u : adj[v])
+        if (color[u] == 0)
+            dfs(u);
+    color[v] = 2;
+    time_out[v] = dfs_timer++;
+}
+
+```
+Here is the link for code: <br>
+<https://cp-algorithms.com/graph/depth-first-search.html>
+
+
